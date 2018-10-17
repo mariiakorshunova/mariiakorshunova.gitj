@@ -1,0 +1,56 @@
+body {
+margin:0px;
+background:href=(mysite/ya.jpg) no repeat center center fixed;
+background-size: cover;
+}
+
+nav {
+width:960px;
+margin:0 auto;
+}
+nav:before {
+content:"";
+display:block;
+height:50px;
+width:100%;
+background:#FFFFFF;
+position:absolute; 
+left:0;
+z-index:-1;
+}
+ul {
+margin:0;
+padding:0;
+list-style:none;
+height:50px;
+
+}
+ul li {
+float:left;
+}
+ul li a{
+color:#000000;
+display:block;
+height:50px;
+padding: 0 30px;
+text-decoration:none;
+line-height: 50px;
+}
+ul li a:hover {
+background: #d34d43;}
+
+title {
+font-color:#FFFFFF;
+}
+p {
+font-family: Helvetica;
+font-size: 24px;
+  font-weight: 700;
+  line-height: 2.5;
+  font-family: Georgia;
+  word-spacing: 0.05em;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+ 
+  }
+ 
